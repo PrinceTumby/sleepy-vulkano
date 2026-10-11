@@ -1,0 +1,8 @@
+[package]
+name = "sleepy-vulkano"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+vulkano = { git = "https://github.com/vulkano-rs/vulkano", rev = "9a80c29" }
